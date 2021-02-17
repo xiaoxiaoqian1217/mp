@@ -1,0 +1,43 @@
+
+/* components/iconfont/iconfont.wxss */
+@font-face {
+  font-family: 'iconfont';  /* project id 2374409 */
+  src: url('//at.alicdn.com/t/font_2374409_igt9vrrkkk.eot');
+  src: url('//at.alicdn.com/t/font_2374409_igt9vrrkkk.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2374409_igt9vrrkkk.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2374409_igt9vrrkkk.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2374409_igt9vrrkkk.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2374409_igt9vrrkkk.svg#iconfont') format('svg')
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconLoadingalt5:before {
+  content: "\e889";
+}
+.iconloading:before{
+  content: "\e646";
+
+}
+
+/* loading 图标动画效果 */
+.iconloading{
+  position: absolute;
+  animation: loading-spin 1s linear infinite;
+}
+@keyframes loading-spin {
+  0% {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  }
+  to {
+  -webkit-transform: rotate(1turn);
+  transform: rotate(1turn);
+  }
+}

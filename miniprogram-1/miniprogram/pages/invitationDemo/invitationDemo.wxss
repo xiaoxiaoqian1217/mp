@@ -1,0 +1,22 @@
+/* pages/invitationDemo.wxss */
+/* 公共样式 */
+.invitation-wrap{
+  position: relative;
+}
+.invitation-wrap .box{
+  border: 1rpx solid #00b26a;
+  margin: 15rpx;
+  padding: 15rpx
+}
+.invitation-wrap .box .title{
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10rpx;
+  border-bottom: 1rpx solid #00b26a;
+}
+.invitation-wrap .box .content{
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

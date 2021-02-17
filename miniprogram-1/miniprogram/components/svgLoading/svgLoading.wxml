@@ -1,0 +1,4 @@
+<!--components/svgLoading/svgLoading.wxml-->
+<view class="svg-loading">
+    <text class="icon-loading"></text>   
+</view>
